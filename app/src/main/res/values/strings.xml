@@ -18,6 +18,7 @@
     <string name="_equals">=</string>
     <string name="_AC">AC</string>
     <string name="_Off">Off</string>
+    <string name="display">Enter in a value</string>
 
 
 </resources>
