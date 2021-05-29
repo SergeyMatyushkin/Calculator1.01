@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         display = findViewById(R.id.Text_View_1);
         display.setShowSoftInputOnFocus(false);
-        //display.setEnabled(false);
+        display.setEnabled(false);
 
         display.setOnClickListener(v -> {
             if("Enter in a value".equals(display.getText().toString())){

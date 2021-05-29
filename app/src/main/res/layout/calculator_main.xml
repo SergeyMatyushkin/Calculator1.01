@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:add="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_columnSpan="3"
+    android:background="@color/background_big"
+    android:gravity="center">
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:add="http://schemas.android.com/apk/res-auto"
+    android:layout_columnSpan="3"
+    android:background="@color/background_big"
+    android:gravity="center">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:ignore="ExtraText">
+
+
+            <EditText
+                android:id="@+id/Text_View_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:padding="@dimen/pading_1"
+                android:background="@color/background_smol"
+                android:text="@string/display"
+                android:layout_span="4"
+                android:autofillHints="false"
+                android:inputType="none"
+                android:textSize="@dimen/Text_Size"
+                android:textAlignment="textEnd"
+                tools:ignore="LabelFor"/>
+
+
+
+</TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:ignore="ExtraText">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_AC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_span="2"
+            android:onClick="button_AC"
+            android:text="@string/_AC"
+            android:textSize="@dimen/button_text" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_backspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_span="2"
+            android:onClick="button_backspace"
+            android:text="@string/_backspace"
+            android:textSize="@dimen/button_text" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:ignore="ExtraText">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_1"
+            android:onClick="button_1"
+            android:text="@string/_1"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_2"
+            android:onClick="button_2"
+            android:text="@string/_2"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_3"
+            android:onClick="button_3"
+            android:text="@string/_3"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_investments"
+            android:onClick="button_investments"
+            android:text="@string/_investments"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_4"
+            android:onClick="button_4"
+            android:text="@string/_4"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_5"
+            android:onClick="button_5"
+            android:text="@string/_5"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_6"
+            android:onClick="button_6"
+            android:text="@string/_6"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_subtraction"
+            android:onClick="button_subtraction"
+            android:text="@string/_subtraction"
+            tools:ignore="DuplicateIds"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_7"
+            android:onClick="button_7"
+            android:text="@string/_7"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_8"
+            android:onClick="button_8"
+            android:text="@string/_8"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_9"
+            android:onClick="button_9"
+            android:text="@string/_9"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_multiplication"
+            android:onClick="button_multiplication"
+            android:text="@string/_multiplication"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_0"
+            android:onClick="button_0"
+            android:text="@string/_0"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_point"
+            android:onClick="button_point"
+            android:text="@string/_point"
+            tools:ignore="ButtonStyle"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_equals"
+            android:onClick="button_equals"
+            android:text="@string/_equals"
+            android:layout_margin="@dimen/enter_margin"
+            style="@style/action_buton_style" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_division"
+            android:onClick="button_division"
+            android:text="@string/_division"
+            style="@style/buton_style" />
+    </TableRow>
+
+
+</TableLayout>
+    </ScrollView>
+
