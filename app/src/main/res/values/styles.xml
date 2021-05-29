@@ -6,5 +6,12 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginHorizontal" tools:targetApi="o">@dimen/enter_margin</item>
         <item name="android:textSize">@dimen/button_text</item>
+        <item name="cornerRadius">20dp</item>
+
+
+    </style>
+
+    <style name="action_buton_style" parent="buton_style">action_button
+        <item name="android:textColor">@color/purple_600</item>
     </style>
 </resources>
