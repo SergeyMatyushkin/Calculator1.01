@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="buton_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">@dimen/enter_margin</item>
+        <item name="android:textSize">@dimen/button_text</item>
+    </style>
+</resources>
