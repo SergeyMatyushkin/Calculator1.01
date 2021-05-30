@@ -21,6 +21,7 @@
         <item name="android:padding">@dimen/themes_padding</item>
         <item name="android:layout_margin">@dimen/themes_margin</item>
         <item name="android:textSize">@dimen/themes_text_size</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
 

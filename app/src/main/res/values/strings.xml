@@ -23,6 +23,7 @@
     <string name="_Back">Back</string>
     <string name="light">light</string>
     <string name="dark">Dark</string>
+    <string name="theme">Theme</string>
 
 
 </resources>
