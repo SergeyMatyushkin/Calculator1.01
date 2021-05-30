@@ -10,11 +10,8 @@
     android:gravity="center">
 
 <TableLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:add="http://schemas.android.com/apk/res-auto"
     android:layout_columnSpan="3"
     android:background="@color/background_big"
     android:gravity="center">
@@ -213,6 +210,23 @@
             android:onClick="button_division"
             android:text="@string/_division"
             style="@style/buton_style" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_Themes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_span="2"
+            android:onClick="button_Themes"
+            android:text="@string/_Themes"
+            android:textSize="@dimen/button_text" />
+
+
     </TableRow>
 
 

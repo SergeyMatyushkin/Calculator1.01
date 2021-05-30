@@ -1,8 +1,11 @@
 package com.example.calculator;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import org.mariuszgromada.math.mxparser.*;
 
@@ -10,6 +13,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private EditText display;
+    private Button Themes;
+
+
+
+
 
 
 
@@ -24,13 +32,19 @@ public class MainActivity extends AppCompatActivity {
         display.setEnabled(false);
 
         display.setOnClickListener(v -> {
-            if("Enter in a value".equals(display.getText().toString())){
+            if ("Enter in a value".equals(display.getText().toString())) {
                 display.setText("");
             }
 
         });
 
+
+
     }
+
+
+
+
     private void updateText (String strToAdd){
         String oldStr = display.getText().toString();
         int cursorPos = display.getSelectionStart();
@@ -139,10 +153,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-
-
-
+    public void button_Themes (View view){
+        Themes = findViewById(R.id.button_Themes);
+        Themes.setOnClickListener(v->{
+            Intent intent = new Intent(this, ThemesActivity.class);
+            this.startActivity(intent);
+        });
+    }
 
 
 
