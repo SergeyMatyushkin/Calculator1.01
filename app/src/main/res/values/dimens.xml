@@ -4,4 +4,7 @@
     <dimen name="pading_1">10dp</dimen>
     <dimen name="Text_Size">30sp</dimen>
     <dimen name="enter_margin">3dp</dimen>
+    <dimen name="themes_padding">5dp</dimen>
+    <dimen name="themes_margin">10dp</dimen>
+    <dimen name="themes_text_size">40dp</dimen>
 </resources>

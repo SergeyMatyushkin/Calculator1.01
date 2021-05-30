@@ -20,6 +20,9 @@
     <string name="_Themes">Themes</string>
     <string name="_backspace">backspace</string>
     <string name="display">Enter in a value</string>
+    <string name="_Back">Back</string>
+    <string name="light">light</string>
+    <string name="dark">Dark</string>
 
 
 </resources>

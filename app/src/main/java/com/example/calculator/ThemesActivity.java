@@ -10,6 +10,10 @@ public class ThemesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.thems);
 
+        findViewById(R.id.button_Back).setOnClickListener(v -> {
+            finish();
+        });
+
 
     }
 }

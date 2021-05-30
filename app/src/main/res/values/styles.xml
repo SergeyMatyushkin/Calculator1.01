@@ -14,4 +14,15 @@
     <style name="action_buton_style" parent="buton_style">action_button
         <item name="android:textColor">@color/purple_600</item>
     </style>
+
+    <style name="thems_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/themes_padding</item>
+        <item name="android:layout_margin">@dimen/themes_margin</item>
+        <item name="android:textSize">@dimen/themes_text_size</item>
+    </style>
+
+
+
 </resources>

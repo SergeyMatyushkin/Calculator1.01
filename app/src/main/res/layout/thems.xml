@@ -5,4 +5,17 @@
     android:layout_height="match_parent"
     android:background="@color/background_big">
 
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_Back"
+        style="@style/buton_style"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/enter_margin"
+        android:text="@string/_Back" />
+
+
+    <Switch
+        android:id="@+id/switch1"
+        style="@style/thems_style"
+        android:text="Theme" />
 </LinearLayout>
