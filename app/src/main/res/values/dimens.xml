@@ -7,4 +7,7 @@
     <dimen name="themes_padding">5dp</dimen>
     <dimen name="themes_margin">10dp</dimen>
     <dimen name="themes_text_size">40dp</dimen>
+    <dimen name="margin_horizontal">5dp</dimen>
+    <dimen name="radio_button_margin">5dp</dimen>
+    <dimen name="size_for_themes">25sp</dimen>
 </resources>

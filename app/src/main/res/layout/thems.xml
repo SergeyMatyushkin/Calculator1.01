@@ -14,11 +14,29 @@
         android:layout_margin="@dimen/enter_margin"
         android:text="@string/_Back" />
 
+    <RadioGroup
+        android:id="@+id/radioButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <Switch
-        android:id="@+id/switch1"
-        style="@style/thems_style"
-        android:text="@string/theme"
-        tools:ignore="UseSwitchCompatOrMaterialXml" />
+        <RadioButton
+            android:id="@+id/radioButton_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/radio_button_margin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_for_themes"
+            android:text="@string/text_in_teme_light" />
+
+        <RadioButton
+            android:id="@+id/radioButton_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/radio_button_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_for_themes"
+            android:text="@string/text_in_teme_dark" />
+    </RadioGroup>
+
 
 </LinearLayout>

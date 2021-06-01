@@ -24,6 +24,8 @@
     <string name="light">light</string>
     <string name="dark">Dark</string>
     <string name="theme">Theme</string>
+    <string name="text_in_teme_light">Light</string>
+    <string name="text_in_teme_dark">Dark</string>
 
 
 </resources>
