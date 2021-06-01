@@ -42,9 +42,6 @@ public class ThemesActivity extends AppCompatActivity {
     }
 
 
-
-
-
     private void initThemeChooser() {
 
         initRadioButton(findViewById(R.id.radioButton_light),
@@ -52,14 +49,12 @@ public class ThemesActivity extends AppCompatActivity {
         initRadioButton(findViewById(R.id.radioButton_dark),
                 buton_style_dark);
         RadioGroup rg = findViewById(R.id.radioButtons);
-        
-        ((MaterialRadioButton)rg.getChildAt(getCodeStyle(buton_style))).setChecked(true);
 
+        ((MaterialRadioButton) rg.getChildAt(getCodeStyle(buton_style))).setChecked(true);
 
 
     }
 
-   
 
     private void initRadioButton(View button, final int codeStyle) {
         button.setOnClickListener(new View.OnClickListener() {
@@ -73,9 +68,11 @@ public class ThemesActivity extends AppCompatActivity {
         });
 
     }
+
     private int getAppTheme(int codeStyle) {
         return codeStyleToStyleId(getCodeStyle(codeStyle));
     }
+
     private int getCodeStyle(int codeStyle) {
         // Работаем через специальный класс сохранения и чтения настроек
         SharedPreferences sharedPref = getSharedPreferences(NameSharedPreference, MODE_PRIVATE);
@@ -84,7 +81,6 @@ public class ThemesActivity extends AppCompatActivity {
 
 
     }
-
 
 
     private void setAppTheme(int codeStyle) {
@@ -98,11 +94,8 @@ public class ThemesActivity extends AppCompatActivity {
     }
 
 
-
-
-
     private int codeStyleToStyleId(int codeStyle) {
-        switch(codeStyle){
+        switch (codeStyle) {
             case buton_style_dark:
                 return R.style.buton_style_dark;
             default:
